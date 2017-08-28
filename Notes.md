@@ -53,10 +53,10 @@
   * **Detrtivores** - Break down dead organic matter
   * **Decomposers** - Break down detritus into simpler elements that can be recycled
   * _Crazy worms_ - eat detritus, but does not leave nutrients behind for decomposers unlike earthworms
-* Catagorize by species interactions
-  * Predatation -
-  * Parasitism -
-  * Herbivory -
+* Categorize by species interactions
+  * Predatation
+  * Parasitism
+  * Herbivory
   * **Competition** - When two organisms depend on the same resource and have a neg effect on each other
   * **Mutualism** - two species benefit from each other
   * **Commensalism** - One benefits, another is not affected
@@ -69,4 +69,22 @@
     * Simpler hypothesis, hungry after sex, black widow eats male
   * **Ultimate hypothesis** - address the fitness costs and benefits of a response (Evolutionary response (Why))
     * Better nutrients for eggs, can pass down genes
-  * 
+  * **Manipulative Hypothesis** - Where a hypothesis is tested by altering a factor to be the cause of a phenomenon
+  * **Treatment** - The factor that we want to manipulate in the Study
+  * **Experimental unit** - object we want to apply manipulation
+  * **Replication** - being able to reproduce a similar outcome multiple times
+  * **Randomization** - requirement for manipulation experiments, every experimental unit must have an equal change of being assigned to a particular treatment.
+  * **Natural experiments** - an approach to hypothesis testing that relies on natural variation in the enviornment to test a hypothesis
+  * **Mathematical models** - represenations of a system with a set of equations that correspond to hypothesized relationships amons system components
+
+### Adaptations to terrestrial enviornments
+  * Nutrients from the soil
+    * Plants need O,C,H,N,K, etc, most of which are obtained by ions dissolved in water in soil
+  * Soil particles- sand, silt, and clay
+    * **Sand** - < .05 mm
+    * **Silt** - .002 - .05
+    * **Clay** - <.002
+  * Soil is often composed of mixtures of particles
+  * Good soil holds more water (clay > silt, more surface area). Water binds to ions in clay
+  * Good soil hold water less tightly (allows for plants to access water more freely, silt > clay). Less SA
+    * Clay is not a great soil
