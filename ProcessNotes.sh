@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # Create flash cards csv from notes for import to anki and point out things to
 # review (?) and HW items (HW) before creating flash cards
-import re, sys, csv
+import re, sys, csv, datetime
 
 fileName = ""
 
@@ -45,7 +45,9 @@ if len(qlist) != 0:
         print (item)
 else:
     print("No questions to resolve.")
-    with open('Flashcards/output.csv', 'w', newline='') as csvfile:
+    today = datetime.date.today()
+    saveName = 'Flashcards/'+ str(today) +'.csv'
+    with open(saveName, 'w', newline='') as csvfile:
       writer = csv.writer(csvfile, delimiter='|',quotechar='|')
       for line in lines_list:
         #Pull out bolded terms and their definitions from the file

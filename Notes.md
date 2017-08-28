@@ -42,4 +42,31 @@
     * **Natural Selection** - changes of genes in a population through differential survival and reproductions of individuals with certain phenotypes
       * **Requirements** - individuals very in traits, traits are heritable, variation in traits causes some individuals to experience higher fitness.
 
-###
+## 8-28
+### Different organisms play diverse roles in ecological systems
+* Categorize species by energy source
+  * **Producers** - autotrophs - Make their own energy
+  * **Consumers** - heterotr0phs - obtain energy from other organisms
+  * **Mixotrophs** - Both produced and consumers (Venus Fly Trap)
+  * _Bladderwort_ - Carnivorous plants, using pressurized traps in stomach
+  * **Scavangers** - Consume dead animals
+  * **Detrtivores** - Break down dead organic matter
+  * **Decomposers** - Break down detritus into simpler elements that can be recycled
+  * _Crazy worms_ - eat detritus, but does not leave nutrients behind for decomposers unlike earthworms
+* Catagorize by species interactions
+  * Predatation -
+  * Parasitism -
+  * Herbivory -
+  * **Competition** - When two organisms depend on the same resource and have a neg effect on each other
+  * **Mutualism** - two species benefit from each other
+  * **Commensalism** - One benefits, another is not affected
+* Categorize by living area
+  * **Habitat** - Place or physical setting where an organism lives, determined by physical features
+  * **Niche** - Range of abiotic and biotic condition and organism can tolerate
+
+### Several approaches to study Ecology
+  * **Proximate hypothesis** - addresses the cause of immediate changes in individual phenotypes or interactions (How and What)
+    * Simpler hypothesis, hungry after sex, black widow eats male
+  * **Ultimate hypothesis** - address the fitness costs and benefits of a response (Evolutionary response (Why))
+    * Better nutrients for eggs, can pass down genes
+  * 
