@@ -100,16 +100,16 @@
   * **Cohesion** - Attraction of substance to itself
   * **Root pressure** - Osmotic pressure of the roots of a plant compared to the rest of the soil
   * **Transpiration** - process which leaves can generate water potential as water evaporates from the surfaces of leaf cells.
-  * **Cohesion-tension theory** - MEchanism of water movement in pants from roots to leaves. Osmosis pushes water into roots, gradient of water from high in roots to low in leaves due to transpiration. Water moves naturally because water has high cohesion, which helps it move up the plant.
+  * **Cohesion-tension theory** - Mechanism of water movement in pants from roots to leaves. Osmosis pushes water into roots, gradient of water from high in roots to low in leaves due to transpiration. Water moves naturally because water has high cohesion, which helps it move up the plant.
   * Photosynthesis
     * **Stomata**- small opening in leaves, controlled by guard cells. Regulates transpiration happens. Points of entry for CO2
       * Where would you find most stomata on the plants terrestrial vs aquatic (HW). Stomata in terrestrial plants are on bottom of leaves, prevents wilting, on top for aquatic for CO2 letting out water
     * **Electromagnetic radiation** - packaged in photons. We see the visible spectrum - 400-700nm (violet to red)
     * **PAS** - pho(?)
     * **Chlorophyll A** - 400 to 450 range abs, red and violot absorbed
-    * **Caratonoids** - Absorbs greens, refects orange.
+    * **Caratonoids** - Absorbs greens, reflects orange.
     * **Chlorophyll b,c,d,f** - accessory pigments that capture light energy and pass to a.
-    * **Photosynthesis** - 6CO2 + 6H2O + photons -> C6H12O6+ 602. Happens in 2 steps, light reactions and calvin cycle
+    * **Photosynthesis** - 6CO2 + 6H2O + photons -> C6H12O6+ 602. Happens in 2 steps, light reactions and Calvin cycle
     * **Light reactions** - Chlorophyll in thylakoids absorb photons, releases e to chain of reactions. Splits H20 molecules, forms O2, energy and hydrogen created used to create ATP and NADPH from ADP and NADP+.
     * **Calvin cycle** - Takes place in stroma of chloroplast - uses generated ATP and NADPH and takes CO2 to convert to glucose.  C02 + RuBP -> 2g3p in a C3 plant.
     (IMAGE here)
@@ -118,7 +118,7 @@
     * Why does leaf structure differ between c3 and c4 plants? (HW) watch video
   * **Homeostasis** - organisms ability to maintain constant internal conditions
   * **Negative feedback** - (?)
-  * **Blood shunting** - Specific blood vessels shut off so less of an animals warm blood flows to cold extremeties where heat would be lost, happens at _precapillary sphincters_
+  * **Blood shunting** - Specific blood vessels shut off so less of an animals warm blood flows to cold extremities where heat would be lost, happens at _precapillary sphincters_
   * Countercurrent circulation helps to conserve heat by pointing arteries that carry warm blood away (?)
   * _African bullfrog_ - adaptations to lack of water. Leave one male behind to sire tadpoles, even offspring that are not their own.
   * **Water and salt balance** - important to survive, especially in dry conditions
