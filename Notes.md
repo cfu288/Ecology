@@ -134,7 +134,7 @@
     * **Hyperosmotic** - tissue solute concentrations are higher than surrounding water.
     * **Hyposmotic** - tissue solute concentrations are lower than surrounding water.
     * **Osmoregulation** - mechanisms organisms use to maintain a proper solute balance.
-    * Sharks and rays convert ammonia, a by-product of protein digestion, into urea. This raises the osmotic potential of their blood to that of seawater, which balances water movement. They accumulate trimethylamine oxide in blood to protect proteins from the harmful effects of urea.
+    * *Sharks and rays convert ammonia*, a by-product of protein digestion, into urea. This raises the osmotic potential of their blood to that of seawater, which balances water movement. They accumulate trimethylamine oxide in blood to protect proteins from the harmful effects of urea.
   * O2 in water
     * **Countercurrent circularion, 02** - adaptation where blood and water flow in opposite directions so that the concentration of O2 in water is always greater than the concentration in blood. (HW)
     * **Pneumatophores**- in mangroves extend above the water to absorb oxygen directly from the air!
@@ -281,3 +281,23 @@
   * **Parity** - the number of reproductive episodes an organism experiences.
   * **Parental investment** - the time and energy given to an offspring by its parents.
   * **Longevity (life expectancy)** - the life span of an organism.
+
+### review
+* Same matrix potential at wilting point across soils
+* Intermediate soils work best, hold water but not too tightly
+* wilting point != water continents
+* detrivore vs decomposer - scavangers -> detrivore(smaller organic matter) -> decomposers (detritis matter from detrivores)
+* 1 adiabatic cooling, 2 look at textbook image chapter 3
+* counter current circulation(o2) - water and blood go opposite directions, always more o2 in water than blood. Makes for efficent movement of water to gills/ blood.
+* Counter current circulation(warming) - conserve heat by positioning arteries that carry warm blood next to vain which carry chilled blood
+* optimal diet composition - eat best nutrition based of risk and abundance factors
+* composition - need to eat different to get all nutrients
+* photosynthesis inputs outputs and key adaptations
+* fresh water- hyper, salt water fish - hypo
+  * Hypoosmotic in salt - usually lose water but adaptations (barriers) to keep water (urinate less)
+* C3,4,CAM
+  * c3 - general plants
+  * c4 - dry
+  * cam - succulant, cacti, dry conditions
+* Grid for Homeotherms
+* rewilding reading assignment
