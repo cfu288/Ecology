@@ -301,3 +301,80 @@
   * cam - succulant, cacti, dry conditions
 * Grid for Homeotherms
 * rewilding reading assignment
+
+----------------------------------------------------------------------------
+###  Evolution and Adaptation
+* Japanese honey bees 'cook' intruding scout hornets
+* Slow to fast continuum
+* **Life history traits in plants** - J. Philip Grime proposed that plant life history depends on stress, competition, and the frequency of disturbances.Plants functioning at the extremes of these environmental axes could be categorized as stress tolerators, competitors, or ruderals.
+* **Tolerators** - Stress tolerators (e.g., woody lousewort) are typically small herbs with a long life span, slow growth, and a long time to sexual maturity. Low seed rate, late sexual maturity, slow growth
+* **Competitors** - When conditions are less stressful, competitors (e.g., goldenrod) grow fast, achieve early sexual maturity, and devote little energy to seed production. Low seed rate, early sexual maturity, fast growth
+* **Ruderals** - Ruderals (e.g., weeds such as Canada thistle) grow fast and devote a high proportion of their energy to reproduction. High seed rate, early sexual maturity, fast growth
+  * disturbance vs stress - disturbed - plants get therre first, stress could be contaminants or high heat. constant isolated stress vs distrubed area, which may be good but recently disturbed.
+* **Principle of allocation** - the observation that when resources are devoted to one body structure, physiological function, or behavior, they cannot be allotted to another. homeostasis -> defense -> growth -> reproduction
+  * **Offspring number vs. size**
+  * **Offspring number vs. parental care**
+  * **Parental care vs. parental survival** - Having more offspring can stimulate parents to hunt harder for food to feed their offspring.
+  * **Determinate growth** - a growth pattern in which an individual does not grow any more once it initiates reproduction; occurs in many species of birds and mammals.
+  * **Indeterminate growth** - a growth pattern in which an individual continues to grow after it initiates reproduction; occurs in many species of plants, invertebrates, fishes, reptiles, and amphibians. prefers shorter lifespan
+  * **SEXUAL MATURITY vs. fitness** - Delaying sexual maturity allows an individual to grow large and produce more offspring per year once reproduction begins.
+* **Semelparity** -  arises when there is a massive amount of energy required for reproduction.
+* **Senescence** - a gradual decrease in fecundity and an increase in the probability of mortality. Consequence of natural wear and tear.
+* **Photoperiod** - the amount of light that occurs each day; provides a cue for many events in the life histories of virtually all organisms.
+
+### Reproductive Strategies
+
+* **Sexual reproduction**- a reproduction mechanism in which progeny inherit DNA from two parents.
+  * **Gonads** - the primary sexual organs in animals.
+* **Asexual reproduction** -reproduction with progeny inherit dna from a single parent
+  * **Vegetative reproduction** - a form of asexual reproduction which an individual is produced from the nonsexual tissue of the parent
+  * **Clones** - same genetic info betwee parent and bear the same genome
+  * **binary fission** - Binary fission: reproduction through duplication of genes followed by division of the cell into two identical cells.
+  * **Parthenogenesis** - a form of asexual reproduction in which an embryo is produced without fertilization.
+    * **Facillitated Parthenogenesis** - organisisms that can reproducethrough sexual or asexual mechanism
+    * **Whiptail reproduction** - contains extra chromosomes to sexually mate with itself
+* **Sex** - can be determined by sex specific chromesomes OR the presence or abscence of sex specific chromosomes
+  * **Environmental sex determination** - a process in which sex is determined largely by the environment; this is a type of phenotypic plasticity, where the phenotype is sex.
+  * **Temperature-dependent sex determination** - occurs when the sex of an individual is determined by the temperature at which eggs develop.
+  * **Frequency dependent selection** - when the rarer phenotype in a population is favored by natural selection.
+  * **Offspring Sex Ratio** - Females can influence the sex ratios through abortion
+* **Mating system** - the number of mates each individual has and the permanence of the relationship with those mates. A female’s reproductive success depends on how many eggs she can produce and mate quality; a male’s success depends on the number of females he can fertilize.
+* **Promiscuity** - males mate with multiple females and females mate with multiple males and do not create lasting social bonds; common among animals and outcrossing plants.
+* **Polygamy** - a single individual of one sex forms long-term social bonds with more than one individual of the opposite sex.
+  * **Polygyny** - a polygamous mating system in which a male mates with more than one female.
+  * **Polyandry** -  a polygamous mating system in which a female mates with more than one male.
+  * **Extra-pair copulation** - when an individual that has a social bond with a mate also breeds with other individuals.
+* Costs of sexual reproduction - Sexual organs require considerable energy and resources.
+* **Cost of meiosis** - the 50% reduction in the number of a parent’s genes passed on to the next generation via sexual reproduction versus asexual production; occurs because sexual genes are haploid.
+  * **Hermaphroditism** - For hermaphrodites, self-fertilization (i.e., selfing) occurs when an individual’s male gametes fertilize its own female gametes.
+  * can increase sexual
+* **Benefit of sex reproduction** - Purging mutations, enviormental variation, parasite
+  * Purging mutations: Sexually reproducing organisms can lose deleterious mutations during meiosis. Due to random assortment, many gametes will not contain mutations.
+  * Coping with environmental variation: offspring are likely to encounter different environmental conditions than their parents.
+  * Coping with parasites and pathogens: pathogens have much shorter generation times and larger population sizes than the host species they infect.
+  * **Red Queen Hypothesis** - sexual selection allows hosts to evolve at a rate that counters the rapid evolution of parasites. sexual reproduction more likely in presence of parasites
+### Social
+* **Donor** - the individual who directs a behavior toward another individual as part of a social interaction.
+* **Recipient** - the individual who receives the behavior of a donor in a social interaction.
+* **Cooperation** - when the donor and the recipient of a social behavior both experience increased fitness from an interaction
+* **Selfishness** - when the donor of a social behavior experiences increased fitness and the recipient experiences decreased fitness
+* **Spitefulness** - when a social interaction reduces the fitness of both donor and recipient (does not occur in natural populations).
+* **Altruism** - a social interaction that increases recipient fitness and decreases the fitness of the donor.
+  * Altruism does not lead to direct fitness, which is the fitness an individual gains by passing on copies of its genes to its offspring.
+  * **Indirect fitness** - the fitness that an individual gains by helping relatives (with which it shares genes through a common ancestor) pass on copies of their genes.
+  * **Inclusive fitness** - the sum of direct fitness and indirect fitness.
+  * **Direct selection** - selection that favors direct fitness.
+  * **Indirect selection (kin selection)** - selection favoring indirect fitness.
+  * **Coefficient of relatedness** - the numerical probability of an individual and its relatives carrying copies of the same genes from a recent common ancestor.
+* **When would selection to favor altruism?** - For altruism to evolve, r must be > than the cost-benefit ratio.
+  * Indirect fitness benefit = B x r.
+    * B = benefit given to a recipient relative.
+    * r = coefficient of relatedness between donor and recipient
+  * Direct fitness cost to the donor (C)
+  * For altruism to evolve, r must be > than the cost-benefit ratio
+    * r > C/B
+  * **Eusocial animals are distinguished by four characteristics** -Several adults living together in a group, Overlapping generations of parents and offspring living together in the same group, Cooperation in nest building and brood care, Reproductive dominance by one or a few individuals and the presence of sterile individuals.
+    * Ants, bees, wasps,
+    * **Caste system** - individuals within a social group sharing a specialized form of behavior.
+    * **Queen** - the dominant, egg-laying female in eusocial insect societies; typically mate once during their lives.
+    * **Haplodiploid** - a sex-determination system in which one sex is haploid and other sex is diploid
