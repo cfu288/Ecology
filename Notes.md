@@ -1,18 +1,5 @@
 # Ecology
-<<<<<<< HEAD
-## 8-23
-* Office hours S3 384 after lectures on Monday
-* Exams 75%, Final cumulative but optional
-* Multiple choice short answer
-* Assignments are 25 points
-* Participation is 15% of grade - participation
-* My courses assignments - post response to reading or video
-* Iclicker.com through mycourses -tools -register -put in code in back of iclicker
 
-## 8-25
-=======
-
->>>>>>> 4abc9069affe12765f4a2bca5d2279e1fd8dfc7a
 ### Ecology - Study of abundance and distribution of organisms in relation to other organisms and environmental conditions
 * _Blue dragon_ - Sea slug that lives in the ocean, found in coastal south Africa. Dorsal is colorful, ventral is white. Allows it to hide in water from above and below predators.
 
@@ -391,3 +378,4 @@
     * **Caste system** - individuals within a social group sharing a specialized form of behavior.
     * **Queen** - the dominant, egg-laying female in eusocial insect societies; typically mate once during their lives.
     * **Haplodiploid** - a sex-determination system in which one sex is haploid and other sex is diploid
+-- missed lecture --
