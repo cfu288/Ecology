@@ -378,6 +378,7 @@
     * **Caste system** - individuals within a social group sharing a specialized form of behavior.
     * **Queen** - the dominant, egg-laying female in eusocial insect societies; typically mate once during their lives.
     * **Haplodiploid** - a sex-determination system in which one sex is haploid and other sex is diploid
+<<<<<<< HEAD
 --missed lecture--
 --missed lecture--
 * Incov truth - oct 26 in uu212 at 5pm
@@ -419,3 +420,6 @@
 * **Logistic growth model** - dN/dt = rN(1 - N/K) a growth model that describes slowing growth of populations at high densities. Uses carrying capacity unlike prev models S shaped curve with Inflection point
   * **S-shaped curve** - the shape of the curve when a population is graphed over time using the logistic growth model.
   * **Inflection point** - the point on a sigmoidal growth curve at which the population has its highest growth rate.
+=======
+-- missed lecture --
+>>>>>>> 7f8c936fa770de3e9fa9b5d1c7009871340ebfb2
