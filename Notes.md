@@ -378,3 +378,44 @@
     * **Caste system** - individuals within a social group sharing a specialized form of behavior.
     * **Queen** - the dominant, egg-laying female in eusocial insect societies; typically mate once during their lives.
     * **Haplodiploid** - a sex-determination system in which one sex is haploid and other sex is diploid
+--missed lecture--
+--missed lecture--
+* Incov truth - oct 26 in uu212 at 5pm
+* **Dispersal limitation** - the absence of a population from suitable habitat because of barriers to dispersal.
+* **Habitat corridor** -  strip of favorable habitat located between two large patches of habitat that facilitates dispersal (e.g., a narrow band of trees that connects forests).
+* **Ideal free distribution** - when individuals distribute themselves among different habitats in a way that allows them to have the same per capita benefit; assumes perfect knowledge of habitat variation. Has 3 assumptions:
+  * When all animals know where the resources are.
+  * They travel to where the resources are.
+  * They evenly distribute the resources
+    * Individuals in nature rarely meet the expectations required by the ideal free distribution
+* **Subpopulations** - when a large population is broken up into smaller groups that live in isolated patches.
+* **Source subpopulation** - in high-quality habitats, subpopulations that serve as a source of dispersers within a metapopulation.
+* **Landscape metapopulation model** -  a population model that considers both differences in the quality of the suitable patches and the quality of the surrounding matrix (e.g., habitat corridors).
+* **Demography** - in a population, the number of new individuals that are produced per unit of time minus the number of individuals that die.
+* **Intrinsic growth rate (r)** - the highest possible per capita growth rate for a population.
+* **Exponential growth model** - a model of population growth in which the population increases continuously at an exponential rate. Unrealistic in real life, species have discrete breeding seasons.
+  * **Future population size(exp)** - Nt =N0e^(rt)
+    * Nt = future population size
+    * N0 = current population size
+    * r = intrinsic growth rate
+    * t = time
+  * **Population growth Rate(exp)** - dN/dt = rN
+    * dN = Change in population
+    * dt = Change in time
+    * r = intrinsic growth rate
+    * N = Current population
+* **Geometric growth model** - a model of population growth that compares population sizes at regular time intervals. When λ > 1, population size has increased; when λ < 1, population size has decreased; λ cannot be negative. (r ==~ λ except r used in exp growth). λ cannot be neg unlike r.
+  * **Future population size(geom)** - Nt =N0λ^t
+  * **Population growth rate(geom)** - Delta N = N0(λ^t - 1)
+* **λ < 1, r < 0** - declining growth graph, pop will decrease
+* **λ = 1, r = 0** - flat line, no growth
+* **λ > 1, r > 0** - inc growth graph, pop will inc
+* **Density independent** - factors that limit population size regardless of the population’s density. Common factors include climactic events (e.g., tornadoes, floods, extreme temperatures, and droughts).
+* **Density dependent** - factors that affect population size in relation to the population’s density.
+* **Negative density dependence** - when the rate of population growth decreases as population density increases.
+* **Positive density dependence**   - when the rate of population growth increases as population density increases (also known as Allee effect).
+* **Allee effect** -Populations of cowslip with fewer than 100 individuals produced fewer seeds per plant than larger populations. log growth (img)
+* **Carrying capacity (K)** - the maximum population size that can be supported by the environment. K/2 is when dN/dT is at its highest point, growth is fastest.
+* **Logistic growth model** - dN/dt = rN(1 - N/K) a growth model that describes slowing growth of populations at high densities. Uses carrying capacity unlike prev models S shaped curve with Inflection point
+  * **S-shaped curve** - the shape of the curve when a population is graphed over time using the logistic growth model.
+  * **Inflection point** - the point on a sigmoidal growth curve at which the population has its highest growth rate.
