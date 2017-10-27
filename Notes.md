@@ -150,4 +150,19 @@
   * **Generation time (T)** - the average time between the birth of an individual and the birth of its offspring.
   * **Calculating lambda** = R0 ^ (1/T). Populations grow when R0 > 1, decline when < 1
   ![Lifetable calculation](/Images/lt.png)
-  *   
+
+### Predation
+* **Introduced, exotic, or non-native species** - are introduced to a region of the world where they have not historically existed.
+* **Invasive species** - are introduced species that spread rapidly and negatively affect other species.
+* **Mesopredators** - relatively small carnivores that consume herbivores
+  * elimiating dingos, increased red fox population, which was worse. Red foxes were controlled by dingos
+  * Feral cats devastate biodiversity, kill birds and other native species, spread toxoplasmosis
+    * ,Educate, Trap-neuter-release, Euthanasia
+* **Top predators** - predators that typically consume both herbivores and predators (e.g., mountain lions, wolves, sharks).
+* **Herbivores** - Herbivores can have substantial effects on the species they consume. Can fence off areas of plants to protect them
+* **active hunting strategies** - spend most of their time moving around looking for prey.
+* **ambush (sit-and-wait) hunting strategies**- lie in wait for a prey to pass by.
+* **Crypsis** - camouflage that either allows an individual to match its environment or breaks up the outline of an individual to blend in better with the background
+* **Warning coloration (aposematism**- a strategy where distastefulness evolves in association with very conspicuous colors and patterns.
+* **Batesian mimicry** - when palatable species evolve warning coloration that resembles  unpalatable species (e.g., hover flies and hornet clearwings resemble the common wasp).
+* **Müllerian mimicry** - when several unpalatable species evolve a similar pattern of warning coloration (e.g., several species of poison dart frogs have evolved similar warning coloration).
