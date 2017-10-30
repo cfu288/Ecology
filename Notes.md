@@ -166,3 +166,14 @@
 * **Warning coloration (aposematism**- a strategy where distastefulness evolves in association with very conspicuous colors and patterns.
 * **Batesian mimicry** - when palatable species evolve warning coloration that resembles  unpalatable species (e.g., hover flies and hornet clearwings resemble the common wasp).
 * **Müllerian mimicry** - when several unpalatable species evolve a similar pattern of warning coloration (e.g., several species of poison dart frogs have evolved similar warning coloration).
+* **Defenses against herbivores** - Some have phenotypically plastic defenses induced by attack, whereas others have fixed defenses.
+* **Structural defenses against herbivores** - Structural defenses (e.g., sharp spines, hair) deter herbivores from consuming leaves, stems, flowers, and fruits.
+* **Defenses against herbivores** - Chemical defenses include sticky resins and latex compounds that are hard to consume, and alkaloids that have a wide range of toxic effects.
+* **Counter adaptation of herbivores** - Many species of insects have evolved tolerance to chemical defenses. ex. Caterpillar behavioral choices can allow them to eat leaves how? (?)
+* **Lotka-Volterra model** - a model of predator-prey interactions that incorporates oscillations in predator and prey populations and shows predator numbers lagging behind those of their prey. Does not incorporate realistic foraging behavior of most predators.
+* **Functional response** - the relationship between the density of prey and an individual predator’s rate of food consumption.
+  * **Type I functional response** - when a predator’s rate of prey consumption increases in a linear fashion with an increase in prey density until satiation occurs.
+  * **Type II functional response** - when a predator’s rate of prey consumption begins to slow as prey density increases and then plateaus; often happens because predators must spend more time handling more prey.
+  * **Type III functional response**- when a predator exhibits low, rapid, and slowing prey consumption under low, moderate, and high prey densities, respectively. Low consumption at low prey densities may occur because predators may have less practice at locating and catching prey but develop a search image at higher prey densities.
+    * **Search image** - a learned mental image that helps a predator locate and capture food.
+  ![Functional Response](/Images/fr.jpg)
