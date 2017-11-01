@@ -273,15 +273,6 @@
   * **Sympatric speciation** - the evolution of new species without geographic isolation.
   * **Polyploid** - a species that contains three or more sets of chromosomes; can also give rise to sympatric speciation.
 
-### Life histories
-  * **Life history** - the schedule of an organism’s growth, development, reproduction, and survival; represents an allocation of limited time and resources to achieve maximum reproductive success.
-    * **Slow life history** - Long time to sexual maturity, Long life spans,Low numbers of offspring, High parental investment
-    * **Fast life history** - Short time to sexual maturity, Short life spans, High numbers of offspring, Little parental investment
-  * **Fecundity** - the number of offspring produced by an organism per reproductive episode.
-  * **Parity** - the number of reproductive episodes an organism experiences.
-  * **Parental investment** - the time and energy given to an offspring by its parents.
-  * **Longevity (life expectancy)** - the life span of an organism.
-
 ### review
 * Same matrix potential at wilting point across soils
 * Intermediate soils work best, hold water but not too tightly

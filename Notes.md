@@ -1,3 +1,13 @@
+### Life histories
+  * **Life history** - the schedule of an organism’s growth, development, reproduction, and survival; represents an allocation of limited time and resources to achieve maximum reproductive success.
+    * **Slow life history** - Long time to sexual maturity, Long life spans,Low numbers of offspring, High parental investment
+    * **Fast life history** - Short time to sexual maturity, Short life spans, High numbers of offspring, Little parental investment
+  * **Fecundity** - the number of offspring produced by an organism per reproductive episode.
+  * **Parity** - the number of reproductive episodes an organism experiences.
+  * **Parental investment** - the time and energy given to an offspring by its parents.
+  * **Longevity (life expectancy)** - the life span of an organism.
+
+
 ###  Evolution and Adaptation
 * Japanese honey bees 'cook' intruding scout hornets
 * Slow to fast continuum
@@ -177,3 +187,29 @@
   * **Type III functional response**- when a predator exhibits low, rapid, and slowing prey consumption under low, moderate, and high prey densities, respectively. Low consumption at low prey densities may occur because predators may have less practice at locating and catching prey but develop a search image at higher prey densities.
     * **Search image** - a learned mental image that helps a predator locate and capture food.
   ![Functional Response](/Images/fr.jpg)
+
+### Modling pretador-prey cycles
+  * **PREY POPULATION GROWTH** - Growth of prey populations depends on the growth rate of a prey population (rN) and the rate of individuals killed by predators (cNP): dN/dt = rN - cNP
+    * N = number of prey
+    * P = number of predators
+    * c = probability of an encounter between a predator and prey leading to the prey’s capture
+  * **PREDATOR POPULATION GROWTH** - Similarly, growth of predator populations depends on growth rate of predator populations (acNP) minus the rate of predator death (mP): dP/dt = acNP - mP
+    * a = the efficiency of a predator converting consumed prey into predator offspring
+    * m = per capita mortality rate of predators
+    * c = probability of an encounter between a predator and prey leading to the prey’s capture
+  * **Equilibrium (zero growth) isocline** - the population size of one species that causes the population of another species to be stable.
+    * for **prey equilibrium** - happens when P = r/c, amount of prey needed to keep predators from growing. dP/dt = 0, horizontal line
+      * r = growth rate
+      * C = capture rate
+    * for **predators equilibrium** -  m/ac = N, predator population that keeps prey from growing. dN/dt = 0, vertical line.
+      * left prey dec, right prey inc
+      * top pred inc, bottom pred dec
+      * bottom right, prey inc, pred inc
+      * top right, prey dec, pred inc
+      * top left, prey dec, pred dec
+      * bottom left, prey inc, pred dec
+    ![](p-p.jpg)
+    * **Joint population trajectory** - the simultaneous trajectory of predator and prey populations.
+    * **Joint equilibrium point** - the point at which the equilibrium isoclines for predator and prey populations cross.
+    ![p-p cycle](4.jpg)
+  * 
