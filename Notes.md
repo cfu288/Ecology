@@ -61,3 +61,26 @@ Missed lecture
   * **Emerging infectious disease** - a newly discovered or rare disease that increases in abundance. Often occurs when a mutation allows a pathogen to jump to a new host species.
   * **Factors that influence the probability of host infection** - Mechanism of transmission, Mode of entering the host, Ability of parasite to jump between species, Existence of reservoir species, Counterattacks to host’s immune system
   * **SIR Model** - Look at susceptible <-> infections -> recovered individuals. Not a spacial model.
+
+### Community
+  * **Communities and boundaries** - The zone in which each species grows reflects different tolerance for environmental conditions and the ability to compete.
+  * **Communities are often categorized by** - their dominant organisms or by physical conditions that affect the distribution of species.
+  * **Ecotone** - a boundary created by sharp changes in environmental conditions over a relatively short distance, accompanied by a major change in the composition of species.
+  * **Interdependent communities** - communities in which species depend on each other to exist.
+    * Plant biologist Frederic **Clements** - proposed that most communities are interdependent and act as superorganisms.
+  * **Independent communities** - communities in which species do not depend on each other to exist.
+    * Plant biologist Henry **Gleason** - proposed that most communities consist of species with independent distributions.
+  * **If species distributions are independent** - They should depend only on individual habitat requirements, There should be gradual changes in species along a line transect.
+  * **If species are interdependent** - Removing a species should cause other species to decline; if changes are neutral or positive species are independent.
+    * Species living under harsh environmental conditions (e.g., high elevation) frequently exhibit interdependence. Removing species reduces fitness of other species in community
+  * **Species richness** - the number of species in a community. Can be affected by the amount of available resources.
+  * **Relative abundance** - the proportion of individuals in a community represented by each species.
+  * **Rank-abundance curves** - a curve that plots the relative abundance of each species in a community in rank order from the most abundant species to the least abundant species. To plot a rank-abundance curve, rank each species in terms of its abundance; the most abundant species receives a rank of 1, the next most abundant species receives a rank of 2, etc.
+  * **Species evenness** - a comparison of the relative abundance of each species in a community. Flatter slope is more even.
+  * **Added resources caused a** - decline in species richness of producers. For plant communities, increased fertility may cause dominant plants to cast more shade on competitively inferior plants.
+  * **Keystone species** - a species that substantially affects the structure of communities, although species might not be particularly numerous.Removal of a keystone species can cause a community to collapse.Ex -starfish eat muscles allowing new species to enter
+  * **Ecosystem engineers** - are keystones species that affect communities by influencing the structure of a habitat.
+  * **Intermediate disturbance hypothesis** - the hypothesis that more species are present in a community that experiences occasional disturbances than in a community with either frequent or rare disturbances. Intermediate levels have highest amount of diversity. Forest fires are an example, occasional is good.
+  ![](/Images/idh.jpg)
+  * **Intermediate disturbance hypothesis** - the hypothesis that more species are present in a community that experiences occasional disturbances than in a community with either frequent or rare disturbances.
+  * **Food Web** - complex and realistic representation of how species feed on each other in a community. Arrows in a food web indicate consumption and the movement of energy and nutrients.
