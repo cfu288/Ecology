@@ -84,3 +84,5 @@ Missed lecture
   ![](/Images/idh.jpg)
   * **Intermediate disturbance hypothesis** - the hypothesis that more species are present in a community that experiences occasional disturbances than in a community with either frequent or rare disturbances.
   * **Food Web** - complex and realistic representation of how species feed on each other in a community. Arrows in a food web indicate consumption and the movement of energy and nutrients.
+  * **Direct effect** - an interaction between two species that does not involve other species. The direct effect of one species often sets off a chain of events that affect other species in the community.
+  * **Indirect effect** - an interaction between two species that involves one or more intermediate species.
