@@ -184,7 +184,7 @@
       * **Torpor**: a brief period of dormancy in which individuals reduce activity and body temperature; common in birds and mammals. *Brief period of dormancy*.
         * Research for mars trips
       * **Aestivation** - the shutting down of metabolic processes during the summer in response to hot or dry conditions. Well-known examples include snails, desert tortoises, and crocodiles. *During the summer*
-    * _Foraging decisions_ - 4 different responses to food variation in space and time
+    * _Foraging decisions_ - 4 different responses to food variation in space and time  
       * **Central place foraging** - foraging behavior in which acquired food is brought to a central place (e.g., a nest with young birds). Forages farther from the central place = greater amounts of resources, but logarithmic scale of time spent searching and food found.
       * **Risk-sensitive foraging** - foraging behavior that is influence by the presence of predators.
       * **Optimal diet composition** - A predator should always eat the prey species that provides the highest amount of energy gained per unit time. If the highest energy prey is rare, the animal should include less profitable items in its diet.
@@ -273,15 +273,6 @@
   * **Sympatric speciation** - the evolution of new species without geographic isolation.
   * **Polyploid** - a species that contains three or more sets of chromosomes; can also give rise to sympatric speciation.
 
-### Life histories
-  * **Life history** - the schedule of an organism’s growth, development, reproduction, and survival; represents an allocation of limited time and resources to achieve maximum reproductive success.
-    * **Slow life history** - Long time to sexual maturity, Long life spans,Low numbers of offspring, High parental investment
-    * **Fast life history** - Short time to sexual maturity, Short life spans, High numbers of offspring, Little parental investment
-  * **Fecundity** - the number of offspring produced by an organism per reproductive episode.
-  * **Parity** - the number of reproductive episodes an organism experiences.
-  * **Parental investment** - the time and energy given to an offspring by its parents.
-  * **Longevity (life expectancy)** - the life span of an organism.
-
 ### review
 * Same matrix potential at wilting point across soils
 * Intermediate soils work best, hold water but not too tightly
@@ -301,3 +292,5 @@
   * cam - succulant, cacti, dry conditions
 * Grid for Homeotherms
 * rewilding reading assignment
+
+----------------------------------------------------------------------------

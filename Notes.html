@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8" />
+      <title>Notes</title>
+      <style>.markdown-preview:not([data-use-github-style]) { padding: 2em; font-size: 1.2em; color: rgb(171, 178, 191); background-color: rgb(40, 44, 52); overflow: auto; }
+.markdown-preview:not([data-use-github-style]) > :first-child { margin-top: 0px; }
+.markdown-preview:not([data-use-github-style]) h1, .markdown-preview:not([data-use-github-style]) h2, .markdown-preview:not([data-use-github-style]) h3, .markdown-preview:not([data-use-github-style]) h4, .markdown-preview:not([data-use-github-style]) h5, .markdown-preview:not([data-use-github-style]) h6 { line-height: 1.2; margin-top: 1.5em; margin-bottom: 0.5em; color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) h1 { font-size: 2.4em; font-weight: 300; }
+.markdown-preview:not([data-use-github-style]) h2 { font-size: 1.8em; font-weight: 400; }
+.markdown-preview:not([data-use-github-style]) h3 { font-size: 1.5em; font-weight: 500; }
+.markdown-preview:not([data-use-github-style]) h4 { font-size: 1.2em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h5 { font-size: 1.1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) h6 { font-size: 1em; font-weight: 600; }
+.markdown-preview:not([data-use-github-style]) strong { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) del { color: rgb(124, 135, 156); }
+.markdown-preview:not([data-use-github-style]) a, .markdown-preview:not([data-use-github-style]) a code { color: rgb(82, 139, 255); }
+.markdown-preview:not([data-use-github-style]) img { max-width: 100%; }
+.markdown-preview:not([data-use-github-style]) > p { margin-top: 0px; margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) > ul, .markdown-preview:not([data-use-github-style]) > ol { margin-bottom: 1.5em; }
+.markdown-preview:not([data-use-github-style]) blockquote { margin: 1.5em 0px; font-size: inherit; color: rgb(124, 135, 156); border-color: rgb(75, 83, 98); border-width: 4px; }
+.markdown-preview:not([data-use-github-style]) hr { margin: 3em 0px; border-top: 2px dashed rgb(75, 83, 98); background: none; }
+.markdown-preview:not([data-use-github-style]) table { margin: 1.5em 0px; }
+.markdown-preview:not([data-use-github-style]) th { color: rgb(255, 255, 255); }
+.markdown-preview:not([data-use-github-style]) th, .markdown-preview:not([data-use-github-style]) td { padding: 0.66em 1em; border: 1px solid rgb(75, 83, 98); }
+.markdown-preview:not([data-use-github-style]) code { color: rgb(255, 255, 255); background-color: rgb(58, 63, 75); }
+.markdown-preview:not([data-use-github-style]) pre.editor-colors { margin: 1.5em 0px; padding: 1em; font-size: 0.92em; border-radius: 3px; background-color: rgb(49, 54, 63); }
+.markdown-preview:not([data-use-github-style]) kbd { color: rgb(255, 255, 255); border-width: 1px 1px 2px; border-style: solid; border-color: rgb(75, 83, 98) rgb(75, 83, 98) rgb(62, 68, 81); border-image: initial; background-color: rgb(58, 63, 75); }
+.markdown-preview[data-use-github-style] { font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, freesans, sans-serif; line-height: 1.6; word-wrap: break-word; padding: 30px; font-size: 16px; color: rgb(51, 51, 51); background-color: rgb(255, 255, 255); overflow: scroll; }
+.markdown-preview[data-use-github-style] > :first-child { margin-top: 0px !important; }
+.markdown-preview[data-use-github-style] > :last-child { margin-bottom: 0px !important; }
+.markdown-preview[data-use-github-style] a:not([href]) { color: inherit; text-decoration: none; }
+.markdown-preview[data-use-github-style] .absent { color: rgb(204, 0, 0); }
+.markdown-preview[data-use-github-style] .anchor { position: absolute; top: 0px; left: 0px; display: block; padding-right: 6px; padding-left: 30px; margin-left: -30px; }
+.markdown-preview[data-use-github-style] .anchor:focus { outline: none; }
+.markdown-preview[data-use-github-style] h1, .markdown-preview[data-use-github-style] h2, .markdown-preview[data-use-github-style] h3, .markdown-preview[data-use-github-style] h4, .markdown-preview[data-use-github-style] h5, .markdown-preview[data-use-github-style] h6 { position: relative; margin-top: 1em; margin-bottom: 16px; font-weight: bold; line-height: 1.4; }
+.markdown-preview[data-use-github-style] h1 .octicon-link, .markdown-preview[data-use-github-style] h2 .octicon-link, .markdown-preview[data-use-github-style] h3 .octicon-link, .markdown-preview[data-use-github-style] h4 .octicon-link, .markdown-preview[data-use-github-style] h5 .octicon-link, .markdown-preview[data-use-github-style] h6 .octicon-link { display: none; color: rgb(0, 0, 0); vertical-align: middle; }
+.markdown-preview[data-use-github-style] h1:hover .anchor, .markdown-preview[data-use-github-style] h2:hover .anchor, .markdown-preview[data-use-github-style] h3:hover .anchor, .markdown-preview[data-use-github-style] h4:hover .anchor, .markdown-preview[data-use-github-style] h5:hover .anchor, .markdown-preview[data-use-github-style] h6:hover .anchor { padding-left: 8px; margin-left: -30px; text-decoration: none; }
+.markdown-preview[data-use-github-style] h1:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h2:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h3:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h4:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h5:hover .anchor .octicon-link, .markdown-preview[data-use-github-style] h6:hover .anchor .octicon-link { display: inline-block; }
+.markdown-preview[data-use-github-style] h1 tt, .markdown-preview[data-use-github-style] h2 tt, .markdown-preview[data-use-github-style] h3 tt, .markdown-preview[data-use-github-style] h4 tt, .markdown-preview[data-use-github-style] h5 tt, .markdown-preview[data-use-github-style] h6 tt, .markdown-preview[data-use-github-style] h1 code, .markdown-preview[data-use-github-style] h2 code, .markdown-preview[data-use-github-style] h3 code, .markdown-preview[data-use-github-style] h4 code, .markdown-preview[data-use-github-style] h5 code, .markdown-preview[data-use-github-style] h6 code { font-size: inherit; }
+.markdown-preview[data-use-github-style] h1 { padding-bottom: 0.3em; font-size: 2.25em; line-height: 1.2; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h1 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h2 { padding-bottom: 0.3em; font-size: 1.75em; line-height: 1.225; border-bottom: 1px solid rgb(238, 238, 238); }
+.markdown-preview[data-use-github-style] h2 .anchor { line-height: 1; }
+.markdown-preview[data-use-github-style] h3 { font-size: 1.5em; line-height: 1.43; }
+.markdown-preview[data-use-github-style] h3 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h4 { font-size: 1.25em; }
+.markdown-preview[data-use-github-style] h4 .anchor { line-height: 1.2; }
+.markdown-preview[data-use-github-style] h5 { font-size: 1em; }
+.markdown-preview[data-use-github-style] h5 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] h6 { font-size: 1em; color: rgb(119, 119, 119); }
+.markdown-preview[data-use-github-style] h6 .anchor { line-height: 1.1; }
+.markdown-preview[data-use-github-style] p, .markdown-preview[data-use-github-style] blockquote, .markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol, .markdown-preview[data-use-github-style] dl, .markdown-preview[data-use-github-style] table, .markdown-preview[data-use-github-style] pre { margin-top: 0px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] hr { height: 4px; padding: 0px; margin: 16px 0px; background-color: rgb(231, 231, 231); border: 0px none; }
+.markdown-preview[data-use-github-style] ul, .markdown-preview[data-use-github-style] ol { padding-left: 2em; }
+.markdown-preview[data-use-github-style] ul.no-list, .markdown-preview[data-use-github-style] ol.no-list { padding: 0px; list-style-type: none; }
+.markdown-preview[data-use-github-style] ul ul, .markdown-preview[data-use-github-style] ul ol, .markdown-preview[data-use-github-style] ol ol, .markdown-preview[data-use-github-style] ol ul { margin-top: 0px; margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] li > p { margin-top: 16px; }
+.markdown-preview[data-use-github-style] dl { padding: 0px; }
+.markdown-preview[data-use-github-style] dl dt { padding: 0px; margin-top: 16px; font-size: 1em; font-style: italic; font-weight: bold; }
+.markdown-preview[data-use-github-style] dl dd { padding: 0px 16px; margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] blockquote { padding: 0px 15px; color: rgb(119, 119, 119); border-left: 4px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] blockquote > :first-child { margin-top: 0px; }
+.markdown-preview[data-use-github-style] blockquote > :last-child { margin-bottom: 0px; }
+.markdown-preview[data-use-github-style] table { display: block; width: 100%; overflow: auto; word-break: keep-all; }
+.markdown-preview[data-use-github-style] table th { font-weight: bold; }
+.markdown-preview[data-use-github-style] table th, .markdown-preview[data-use-github-style] table td { padding: 6px 13px; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] table tr { background-color: rgb(255, 255, 255); border-top: 1px solid rgb(204, 204, 204); }
+.markdown-preview[data-use-github-style] table tr:nth-child(2n) { background-color: rgb(248, 248, 248); }
+.markdown-preview[data-use-github-style] img { max-width: 100%; box-sizing: border-box; }
+.markdown-preview[data-use-github-style] .emoji { max-width: none; }
+.markdown-preview[data-use-github-style] span.frame { display: block; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.frame > span { display: block; float: left; width: auto; padding: 7px; margin: 13px 0px 0px; overflow: hidden; border: 1px solid rgb(221, 221, 221); }
+.markdown-preview[data-use-github-style] span.frame span img { display: block; float: left; }
+.markdown-preview[data-use-github-style] span.frame span span { display: block; padding: 5px 0px 0px; clear: both; color: rgb(51, 51, 51); }
+.markdown-preview[data-use-github-style] span.align-center { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-center > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-center span img { margin: 0px auto; text-align: center; }
+.markdown-preview[data-use-github-style] span.align-right { display: block; overflow: hidden; clear: both; }
+.markdown-preview[data-use-github-style] span.align-right > span { display: block; margin: 13px 0px 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] span.align-right span img { margin: 0px; text-align: right; }
+.markdown-preview[data-use-github-style] span.float-left { display: block; float: left; margin-right: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-left span { margin: 13px 0px 0px; }
+.markdown-preview[data-use-github-style] span.float-right { display: block; float: right; margin-left: 13px; overflow: hidden; }
+.markdown-preview[data-use-github-style] span.float-right > span { display: block; margin: 13px auto 0px; overflow: hidden; text-align: right; }
+.markdown-preview[data-use-github-style] code, .markdown-preview[data-use-github-style] tt { padding: 0.2em 0px; margin: 0px; font-size: 85%; background-color: rgba(0, 0, 0, 0.0392157); border-radius: 3px; }
+.markdown-preview[data-use-github-style] code::before, .markdown-preview[data-use-github-style] tt::before, .markdown-preview[data-use-github-style] code::after, .markdown-preview[data-use-github-style] tt::after { letter-spacing: -0.2em; content: " "; }
+.markdown-preview[data-use-github-style] code br, .markdown-preview[data-use-github-style] tt br { display: none; }
+.markdown-preview[data-use-github-style] del code { text-decoration: inherit; }
+.markdown-preview[data-use-github-style] pre > code { padding: 0px; margin: 0px; font-size: 100%; word-break: normal; white-space: pre; background: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] .highlight { margin-bottom: 16px; }
+.markdown-preview[data-use-github-style] .highlight pre, .markdown-preview[data-use-github-style] pre { padding: 16px; overflow: auto; font-size: 85%; line-height: 1.45; background-color: rgb(247, 247, 247); border-radius: 3px; }
+.markdown-preview[data-use-github-style] .highlight pre { margin-bottom: 0px; word-break: normal; }
+.markdown-preview[data-use-github-style] pre { word-wrap: normal; }
+.markdown-preview[data-use-github-style] pre code, .markdown-preview[data-use-github-style] pre tt { display: inline; max-width: initial; padding: 0px; margin: 0px; overflow: initial; line-height: inherit; word-wrap: normal; background-color: transparent; border: 0px; }
+.markdown-preview[data-use-github-style] pre code::before, .markdown-preview[data-use-github-style] pre tt::before, .markdown-preview[data-use-github-style] pre code::after, .markdown-preview[data-use-github-style] pre tt::after { content: normal; }
+.markdown-preview[data-use-github-style] kbd { display: inline-block; padding: 3px 5px; font-size: 11px; line-height: 10px; color: rgb(85, 85, 85); vertical-align: middle; background-color: rgb(252, 252, 252); border-width: 1px; border-style: solid; border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(187, 187, 187); border-image: initial; border-radius: 3px; box-shadow: rgb(187, 187, 187) 0px -1px 0px inset; }
+.markdown-preview[data-use-github-style] a { color: rgb(51, 122, 183); }
+.markdown-preview[data-use-github-style] code { color: inherit; }
+.markdown-preview[data-use-github-style] pre.editor-colors { padding: 0.8em 1em; margin-bottom: 1em; font-size: 0.85em; border-radius: 4px; overflow: auto; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors .horizontal-scrollbar { visibility: hidden; }
+.scrollbars-visible-always .markdown-preview pre.editor-colors:hover .vertical-scrollbar, .scrollbars-visible-always .markdown-preview pre.editor-colors:hover .horizontal-scrollbar { visibility: visible; }
+.markdown-preview .task-list-item-checkbox { position: absolute; margin: 0.25em 0px 0px -1.4em; }
+.bracket-matcher .region {
+  border-bottom: 1px dotted lime;
+  position: absolute;
+}
+
+.spell-check-misspelling .region {
+  border-bottom: 2px dotted rgba(255, 51, 51, 0.75);
+}
+.spell-check-corrections {
+  width: 25em !important;
+}
+
+pre.editor-colors {
+  background-color: #282c34;
+  color: #abb2bf;
+}
+pre.editor-colors .line.cursor-line {
+  background-color: rgba(153, 187, 255, 0.04);
+}
+pre.editor-colors .invisible {
+  color: #abb2bf;
+}
+pre.editor-colors .cursor {
+  border-left: 2px solid #528bff;
+}
+pre.editor-colors .selection .region {
+  background-color: #3e4451;
+}
+pre.editor-colors .bracket-matcher .region {
+  border-bottom: 1px solid #528bff;
+  box-sizing: border-box;
+}
+pre.editor-colors .invisible-character {
+  color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .indent-guide {
+  color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .wrap-guide {
+  background-color: rgba(171, 178, 191, 0.15);
+}
+pre.editor-colors .find-result .region.region.region,
+pre.editor-colors .current-result .region.region.region {
+  border-radius: 2px;
+  background-color: rgba(82, 139, 255, 0.24);
+  transition: border-color 0.4s;
+}
+pre.editor-colors .find-result .region.region.region {
+  border: 2px solid transparent;
+}
+pre.editor-colors .current-result .region.region.region {
+  border: 2px solid #528bff;
+  transition-duration: .1s;
+}
+pre.editor-colors .gutter .line-number {
+  color: #636d83;
+  -webkit-font-smoothing: antialiased;
+}
+pre.editor-colors .gutter .line-number.cursor-line {
+  color: #abb2bf;
+  background-color: #2c313a;
+}
+pre.editor-colors .gutter .line-number.cursor-line-no-selection {
+  background-color: transparent;
+}
+pre.editor-colors .gutter .line-number .icon-right {
+  color: #abb2bf;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed.git-line-removed::before {
+  bottom: -3px;
+}
+pre.editor-colors .gutter:not(.git-diff-icon) .line-number.git-line-removed::after {
+  content: "";
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 25px;
+  border-bottom: 1px dotted rgba(224, 82, 82, 0.5);
+  pointer-events: none;
+}
+pre.editor-colors .gutter .line-number.folded,
+pre.editor-colors .gutter .line-number:after,
+pre.editor-colors .fold-marker:after {
+  color: #abb2bf;
+}
+.syntax--comment {
+  color: #5c6370;
+  font-style: italic;
+}
+.syntax--comment .syntax--markup.syntax--link {
+  color: #5c6370;
+}
+.syntax--entity.syntax--name.syntax--type {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--other.syntax--inherited-class {
+  color: #98c379;
+}
+.syntax--keyword {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--control {
+  color: #c678dd;
+}
+.syntax--keyword.syntax--operator {
+  color: #abb2bf;
+}
+.syntax--keyword.syntax--other.syntax--special-method {
+  color: #61afef;
+}
+.syntax--keyword.syntax--other.syntax--unit {
+  color: #d19a66;
+}
+.syntax--storage {
+  color: #c678dd;
+}
+.syntax--storage.syntax--type.syntax--annotation,
+.syntax--storage.syntax--type.syntax--primitive {
+  color: #c678dd;
+}
+.syntax--storage.syntax--modifier.syntax--package,
+.syntax--storage.syntax--modifier.syntax--import {
+  color: #abb2bf;
+}
+.syntax--constant {
+  color: #d19a66;
+}
+.syntax--constant.syntax--variable {
+  color: #d19a66;
+}
+.syntax--constant.syntax--character.syntax--escape {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--numeric {
+  color: #d19a66;
+}
+.syntax--constant.syntax--other.syntax--color {
+  color: #56b6c2;
+}
+.syntax--constant.syntax--other.syntax--symbol {
+  color: #56b6c2;
+}
+.syntax--variable {
+  color: #e06c75;
+}
+.syntax--variable.syntax--interpolation {
+  color: #be5046;
+}
+.syntax--variable.syntax--parameter {
+  color: #abb2bf;
+}
+.syntax--string {
+  color: #98c379;
+}
+.syntax--string.syntax--regexp {
+  color: #56b6c2;
+}
+.syntax--string.syntax--regexp .syntax--source.syntax--ruby.syntax--embedded {
+  color: #e5c07b;
+}
+.syntax--string.syntax--other.syntax--link {
+  color: #e06c75;
+}
+.syntax--punctuation.syntax--definition.syntax--comment {
+  color: #5c6370;
+}
+.syntax--punctuation.syntax--definition.syntax--method-parameters,
+.syntax--punctuation.syntax--definition.syntax--function-parameters,
+.syntax--punctuation.syntax--definition.syntax--parameters,
+.syntax--punctuation.syntax--definition.syntax--separator,
+.syntax--punctuation.syntax--definition.syntax--seperator,
+.syntax--punctuation.syntax--definition.syntax--array {
+  color: #abb2bf;
+}
+.syntax--punctuation.syntax--definition.syntax--heading,
+.syntax--punctuation.syntax--definition.syntax--identity {
+  color: #61afef;
+}
+.syntax--punctuation.syntax--definition.syntax--bold {
+  color: #e5c07b;
+  font-weight: bold;
+}
+.syntax--punctuation.syntax--definition.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--punctuation.syntax--section.syntax--embedded {
+  color: #be5046;
+}
+.syntax--punctuation.syntax--section.syntax--method,
+.syntax--punctuation.syntax--section.syntax--class,
+.syntax--punctuation.syntax--section.syntax--inner-class {
+  color: #abb2bf;
+}
+.syntax--support.syntax--class {
+  color: #e5c07b;
+}
+.syntax--support.syntax--type {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function {
+  color: #56b6c2;
+}
+.syntax--support.syntax--function.syntax--any-method {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--function {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--class,
+.syntax--entity.syntax--name.syntax--type.syntax--class {
+  color: #e5c07b;
+}
+.syntax--entity.syntax--name.syntax--section {
+  color: #61afef;
+}
+.syntax--entity.syntax--name.syntax--tag {
+  color: #e06c75;
+}
+.syntax--entity.syntax--other.syntax--attribute-name {
+  color: #d19a66;
+}
+.syntax--entity.syntax--other.syntax--attribute-name.syntax--id {
+  color: #61afef;
+}
+.syntax--meta.syntax--class {
+  color: #e5c07b;
+}
+.syntax--meta.syntax--class.syntax--body {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--method-call,
+.syntax--meta.syntax--method {
+  color: #abb2bf;
+}
+.syntax--meta.syntax--definition.syntax--variable {
+  color: #e06c75;
+}
+.syntax--meta.syntax--link {
+  color: #d19a66;
+}
+.syntax--meta.syntax--require {
+  color: #61afef;
+}
+.syntax--meta.syntax--selector {
+  color: #c678dd;
+}
+.syntax--meta.syntax--separator {
+  background-color: #373b41;
+  color: #abb2bf;
+}
+.syntax--meta.syntax--tag {
+  color: #abb2bf;
+}
+.syntax--underline {
+  text-decoration: underline;
+}
+.syntax--none {
+  color: #abb2bf;
+}
+.syntax--invalid.syntax--deprecated {
+  color: #523d14 !important;
+  background-color: #e0c285 !important;
+}
+.syntax--invalid.syntax--illegal {
+  color: white !important;
+  background-color: #e05252 !important;
+}
+.syntax--markup.syntax--bold {
+  color: #d19a66;
+  font-weight: bold;
+}
+.syntax--markup.syntax--changed {
+  color: #c678dd;
+}
+.syntax--markup.syntax--deleted {
+  color: #e06c75;
+}
+.syntax--markup.syntax--italic {
+  color: #c678dd;
+  font-style: italic;
+}
+.syntax--markup.syntax--heading {
+  color: #e06c75;
+}
+.syntax--markup.syntax--heading .syntax--punctuation.syntax--definition.syntax--heading {
+  color: #61afef;
+}
+.syntax--markup.syntax--link {
+  color: #56b6c2;
+}
+.syntax--markup.syntax--inserted {
+  color: #98c379;
+}
+.syntax--markup.syntax--quote {
+  color: #d19a66;
+}
+.syntax--markup.syntax--raw {
+  color: #98c379;
+}
+.syntax--source.syntax--c .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--cpp .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--cs .syntax--keyword.syntax--operator {
+  color: #c678dd;
+}
+.syntax--source.syntax--css .syntax--property-name,
+.syntax--source.syntax--css .syntax--property-value {
+  color: #828997;
+}
+.syntax--source.syntax--css .syntax--property-name.syntax--support,
+.syntax--source.syntax--css .syntax--property-value.syntax--support {
+  color: #abb2bf;
+}
+.syntax--source.syntax--gfm .syntax--markup {
+  -webkit-font-smoothing: auto;
+}
+.syntax--source.syntax--gfm .syntax--link .syntax--entity {
+  color: #61afef;
+}
+.syntax--source.syntax--go .syntax--storage.syntax--type.syntax--string {
+  color: #c678dd;
+}
+.syntax--source.syntax--ini .syntax--keyword.syntax--other.syntax--definition.syntax--ini {
+  color: #e06c75;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--modifier.syntax--import {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--storage.syntax--type {
+  color: #e5c07b;
+}
+.syntax--source.syntax--java .syntax--keyword.syntax--operator.syntax--instanceof {
+  color: #c678dd;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair {
+  color: #e06c75;
+}
+.syntax--source.syntax--java-properties .syntax--meta.syntax--key-pair > .syntax--punctuation {
+  color: #abb2bf;
+}
+.syntax--source.syntax--js .syntax--keyword.syntax--operator {
+  color: #56b6c2;
+}
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--delete,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--in,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--of,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--instanceof,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--new,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--typeof,
+.syntax--source.syntax--js .syntax--keyword.syntax--operator.syntax--void {
+  color: #c678dd;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation.syntax--string {
+  color: #e06c75;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--value.syntax--json > .syntax--string.syntax--quoted.syntax--json > .syntax--punctuation {
+  color: #98c379;
+}
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--dictionary.syntax--json > .syntax--constant.syntax--language.syntax--json,
+.syntax--source.syntax--json .syntax--meta.syntax--structure.syntax--array.syntax--json > .syntax--constant.syntax--language.syntax--json {
+  color: #56b6c2;
+}
+.syntax--source.syntax--ruby .syntax--constant.syntax--other.syntax--symbol > .syntax--punctuation {
+  color: inherit;
+}
+.syntax--source.syntax--python .syntax--keyword.syntax--operator.syntax--logical.syntax--python {
+  color: #c678dd;
+}
+.syntax--source.syntax--python .syntax--variable.syntax--parameter {
+  color: #d19a66;
+}
+</style>
+  </head>
+  <body class='markdown-preview' data-use-github-style><h3 id="life-histories">Life histories</h3>
+<ul>
+<li><strong>Life history</strong> - the schedule of an organism’s growth, development, reproduction, and survival; represents an allocation of limited time and resources to achieve maximum reproductive success.<ul>
+<li><strong>Slow life history</strong> - Long time to sexual maturity, Long life spans,Low numbers of offspring, High parental investment</li>
+<li><strong>Fast life history</strong> - Short time to sexual maturity, Short life spans, High numbers of offspring, Little parental investment</li>
+</ul>
+</li>
+<li><strong>Fecundity</strong> - the number of offspring produced by an organism per reproductive episode.</li>
+<li><strong>Parity</strong> - the number of reproductive episodes an organism experiences.</li>
+<li><strong>Parental investment</strong> - the time and energy given to an offspring by its parents.</li>
+<li><strong>Longevity (life expectancy)</strong> - the life span of an organism.</li>
+</ul>
+<h3 id="evolution-and-adaptation">Evolution and Adaptation</h3>
+<ul>
+<li>Japanese honey bees &#39;cook&#39; intruding scout hornets</li>
+<li>Slow to fast continuum</li>
+<li><strong>Life history traits in plants</strong> - J. Philip Grime proposed that plant life history depends on stress, competition, and the frequency of disturbances.Plants functioning at the extremes of these environmental axes could be categorized as stress tolerators, competitors, or ruderals.</li>
+<li><strong>Tolerators</strong> - Stress tolerators (e.g., woody lousewort) are typically small herbs with a long life span, slow growth, and a long time to sexual maturity. Low seed rate, late sexual maturity, slow growth</li>
+<li><strong>Competitors</strong> - When conditions are less stressful, competitors (e.g., goldenrod) grow fast, achieve early sexual maturity, and devote little energy to seed production. Low seed rate, early sexual maturity, fast growth</li>
+<li><strong>Ruderals</strong> - Ruderals (e.g., weeds such as Canada thistle) grow fast and devote a high proportion of their energy to reproduction. High seed rate, early sexual maturity, fast growth<ul>
+<li>disturbance vs stress - disturbed - plants get therre first, stress could be contaminants or high heat. constant isolated stress vs distrubed area, which may be good but recently disturbed.</li>
+</ul>
+</li>
+<li><strong>Principle of allocation</strong> - the observation that when resources are devoted to one body structure, physiological function, or behavior, they cannot be allotted to another. homeostasis -&gt; defense -&gt; growth -&gt; reproduction<ul>
+<li><strong>Offspring number vs. size</strong></li>
+<li><strong>Offspring number vs. parental care</strong></li>
+<li><strong>Parental care vs. parental survival</strong> - Having more offspring can stimulate parents to hunt harder for food to feed their offspring.</li>
+<li><strong>Determinate growth</strong> - a growth pattern in which an individual does not grow any more once it initiates reproduction; occurs in many species of birds and mammals.</li>
+<li><strong>Indeterminate growth</strong> - a growth pattern in which an individual continues to grow after it initiates reproduction; occurs in many species of plants, invertebrates, fishes, reptiles, and amphibians. prefers shorter lifespan</li>
+<li><strong>SEXUAL MATURITY vs. fitness</strong> - Delaying sexual maturity allows an individual to grow large and produce more offspring per year once reproduction begins.</li>
+</ul>
+</li>
+<li><strong>Semelparity</strong> -  arises when there is a massive amount of energy required for reproduction.</li>
+<li><strong>Senescence</strong> - a gradual decrease in fecundity and an increase in the probability of mortality. Consequence of natural wear and tear.</li>
+<li><strong>Photoperiod</strong> - the amount of light that occurs each day; provides a cue for many events in the life histories of virtually all organisms.</li>
+</ul>
+<h3 id="reproductive-strategies">Reproductive Strategies</h3>
+<ul>
+<li><strong>Sexual reproduction</strong>- a reproduction mechanism in which progeny inherit DNA from two parents.<ul>
+<li><strong>Gonads</strong> - the primary sexual organs in animals.</li>
+</ul>
+</li>
+<li><strong>Asexual reproduction</strong> -reproduction with progeny inherit dna from a single parent<ul>
+<li><strong>Vegetative reproduction</strong> - a form of asexual reproduction which an individual is produced from the nonsexual tissue of the parent</li>
+<li><strong>Clones</strong> - same genetic info betwee parent and bear the same genome(individual level)</li>
+<li><strong>binary fission</strong> - Binary fission: reproduction through duplication of genes followed by division of the cell into two identical cells.(cellular level)</li>
+<li><strong>Parthenogenesis</strong> - a form of asexual reproduction in which an embryo is produced without fertilization.<ul>
+<li><strong>Facillitated Parthenogenesis</strong> - organisisms that can reproducethrough sexual or asexual mechanism</li>
+<li><strong>Whiptail reproduction</strong> - contains extra chromosomes to sexually mate with itself</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Sex</strong> - can be determined by sex specific chromesomes OR the presence or abscence of sex specific chromosomes<ul>
+<li><strong>Environmental sex determination</strong> - a process in which sex is determined largely by the environment; this is a type of phenotypic plasticity, where the phenotype is sex.</li>
+<li><strong>Temperature-dependent sex determination</strong> - occurs when the sex of an individual is determined by the temperature at which eggs develop.</li>
+<li><strong>Frequency dependent selection</strong> - when the rarer phenotype in a population is favored by natural selection.</li>
+<li><strong>Offspring Sex Ratio</strong> - Females can influence the sex ratios through abortion</li>
+</ul>
+</li>
+<li><strong>Mating system</strong> - the number of mates each individual has and the permanence of the relationship with those mates. A female’s reproductive success depends on how many eggs she can produce and mate quality; a male’s success depends on the number of females he can fertilize.</li>
+<li><strong>Promiscuity</strong> - males mate with multiple females and females mate with multiple males and do not create lasting social bonds; common among animals and outcrossing plants.</li>
+<li><strong>Polygamy</strong> - a single individual of one sex forms long-term social bonds with more than one individual of the opposite sex.<ul>
+<li><strong>Polygyny</strong> - a polygamous mating system in which a male mates with more than one female.</li>
+<li><strong>Polyandry</strong> -  a polygamous mating system in which a female mates with more than one male.</li>
+<li><strong>Extra-pair copulation</strong> - when an individual that has a social bond with a mate also breeds with other individuals.</li>
+</ul>
+</li>
+<li>Costs of sexual reproduction - Sexual organs require considerable energy and resources.</li>
+<li><strong>Cost of meiosis</strong> - the 50% reduction in the number of a parent’s genes passed on to the next generation via sexual reproduction versus asexual production; occurs because sexual genes are haploid.<ul>
+<li><strong>Hermaphroditism</strong> - For hermaphrodites, self-fertilization (i.e., selfing) occurs when an individual’s male gametes fertilize its own female gametes.</li>
+<li>can increase sexual</li>
+</ul>
+</li>
+<li><strong>Benefit of sex reproduction</strong> - Purging mutations, enviormental variation, parasite<ul>
+<li>Purging mutations: Sexually reproducing organisms can lose deleterious mutations during meiosis. Due to random assortment, many gametes will not contain mutations.</li>
+<li>Coping with environmental variation: offspring are likely to encounter different environmental conditions than their parents.</li>
+<li>Coping with parasites and pathogens: pathogens have much shorter generation times and larger population sizes than the host species they infect.</li>
+<li><strong>Red Queen Hypothesis</strong> - sexual selection allows hosts to evolve at a rate that counters the rapid evolution of parasites. sexual reproduction more likely in presence of parasites. More likely to occur in the host, snails are more likely to reproduce sexually if around a lot of pathogens.</li>
+</ul>
+</li>
+</ul>
+<h3 id="social">Social</h3>
+<ul>
+<li><strong>Donor</strong> - the individual who directs a behavior toward another individual as part of a social interaction.</li>
+<li><strong>Recipient</strong> - the individual who receives the behavior of a donor in a social interaction.</li>
+<li><strong>Cooperation</strong> - when the donor and the recipient of a social behavior both experience increased fitness from an interaction</li>
+<li><strong>Selfishness</strong> - when the donor of a social behavior experiences increased fitness and the recipient experiences decreased fitness</li>
+<li><strong>Spitefulness</strong> - when a social interaction reduces the fitness of both donor and recipient (does not occur in natural populations).</li>
+<li><strong>Altruism</strong> - a social interaction that increases recipient fitness and decreases the fitness of the donor.<ul>
+<li>Altruism does not lead to direct fitness, which is the fitness an individual gains by passing on copies of its genes to its offspring.</li>
+<li><strong>Indirect fitness</strong> - the fitness that an individual gains by helping relatives (with which it shares genes through a common ancestor) pass on copies of their genes.</li>
+<li><strong>Inclusive fitness</strong> - the sum of direct fitness and indirect fitness.</li>
+<li><strong>Direct selection</strong> - selection that favors direct fitness.</li>
+<li><strong>Indirect selection (kin selection)</strong> - selection favoring indirect fitness.</li>
+<li><strong>Coefficient of relatedness</strong> - the numerical probability of an individual and its relatives carrying copies of the same genes from a recent common ancestor.</li>
+</ul>
+</li>
+<li><strong>When would selection to favor altruism?</strong> - For altruism to evolve, r must be &gt; than the cost-benefit ratio.<ul>
+<li>Indirect fitness benefit = B x r.<ul>
+<li>B = benefit given to a recipient relative.</li>
+<li>r = coefficient of relatedness between donor and recipient</li>
+</ul>
+</li>
+<li>Direct fitness cost to the donor (C)</li>
+<li>For altruism to evolve, r must be &gt; than the cost-benefit ratio<ul>
+<li>r &gt; C/B</li>
+</ul>
+</li>
+<li><strong>Eusocial animals are distinguished by four characteristics</strong> -Several adults living together in a group, Overlapping generations of parents and offspring living together in the same group, Cooperation in nest building and brood care, Reproductive dominance by one or a few individuals and the presence of sterile individuals.<ul>
+<li>Ants, bees, wasps,</li>
+<li><strong>Caste system</strong> - individuals within a social group sharing a specialized form of behavior.</li>
+<li><strong>Queen</strong> - the dominant, egg-laying female in eusocial insect societies; typically mate once during their lives.</li>
+<li><strong>Haplodiploid</strong> - a sex-determination system in which one sex is haploid and other sex is diploid</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="population-distributions">Population Distributions</h3>
+<ul>
+<li><strong>Fundamental niche</strong> - Where a species is able to live. The range of abiotic conditions (e.g., temperature, humidity, salinity) under which a species can persist.</li>
+<li><strong>Realized niche</strong> - Where a species is actually found. the range of abiotic and biotic conditions under which a species can persist.</li>
+<li><strong>Geographic range</strong> - a measure of the total area covered by a population</li>
+<li><strong>Ecological niche modeling</strong> - the process of determining the suitable habitat conditions for a species.</li>
+<li><strong>Endemic</strong> -  species that live in a single, often isolated, location.</li>
+<li><strong>Cosmopolitan</strong> - species with very large geographic ranges that can span several continents.</li>
+<li><strong>Clustered dispersion</strong> -  when individuals are aggregated in discrete groups</li>
+<li><strong>Evenly spaced dispersion</strong> - when each individual maintains a uniform distance between itself and its neighbors</li>
+<li><strong>Random dispersion</strong> - when the position of each individual is independent of other individuals</li>
+<li><strong>Mark-recapture survey</strong> - a method of population estimation in which researchers capture and mark a subset of a population from an area, return it to the area, and capture a second sample of the population after time has passed. Estimate_pop_size = (Total individuals captures in 2nd sample / marked recaptured individuals) * (initial captured individuals)</li>
+<li><strong>Lifetime dispersal distance</strong> - the average distance an individual moves from where it was born to where it reproduces. This provides an estimate for how fast a population can increase its geographic range.</li>
+</ul>
+<h1 id="population-growth-regrowth">Population growth, regrowth</h1>
+<ul>
+<li><strong>Census</strong> - counting every individual in a population.</li>
+<li><strong>Area- and volume-based surveys</strong> - surveys that define the boundaries of an area or volume and then count all of the individuals in the space. The size of the defined space is related to the abundance and density of the population.</li>
+<li><strong>Line-transect surveys</strong> - surveys that count the number of individuals observed as one moves along a line. This data can be converted into area estimates of a population.</li>
+<li><strong>Green frog</strong> - banjo</li>
+<li><strong>Bullfrog</strong> - “brrr”drone</li>
+<li><strong>Wood frog</strong> - ducks</li>
+<li><strong>Spring peeper</strong> -peeps</li>
+<li><strong>American Toad</strong> - trill</li>
+<li>Incov truth - oct 26 in uu212 at 5pm</li>
+<li><strong>Dispersal limitation</strong> - the absence of a population from suitable habitat because of barriers to dispersal.</li>
+<li><strong>Habitat corridor</strong> -  strip of favorable habitat located between two large patches of habitat that facilitates dispersal (e.g., a narrow band of trees that connects forests).</li>
+<li><strong>Ideal free distribution</strong> - when individuals distribute themselves among different habitats in a way that allows them to have the same per capita benefit; assumes perfect knowledge of habitat variation. Has 3 assumptions:<ul>
+<li>When all animals know where the resources are.</li>
+<li>They travel to where the resources are.</li>
+<li>They evenly distribute the resources<ul>
+<li>Individuals in nature rarely meet the expectations required by the ideal free distribution</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Subpopulations</strong> - when a large population is broken up into smaller groups that live in isolated patches.</li>
+<li><strong>Source subpopulation</strong> - in high-quality habitats, subpopulations that serve as a source of dispersers within a metapopulation.</li>
+<li><strong>Sink Population</strong> - low-quality habitats, subpopulations that rely on outside dispersers to maintain the subpopulation</li>
+<li><strong>Landscape metapopulation model</strong> -  a population model that considers both differences in the quality of the suitable patches and the quality of the surrounding matrix (e.g., habitat corridors).</li>
+<li><strong>Metapopulation</strong> - all populations brought together, subpopulation is part of it.</li>
+<li><strong>Demography</strong> - in a population, the number of new individuals that are produced per unit of time minus the number of individuals that die.</li>
+<li><strong>Intrinsic growth rate (r)</strong> - the highest possible per capita growth rate for a population.</li>
+<li><strong>Exponential growth model</strong> - a model of population growth in which the population increases continuously at an exponential rate. Unrealistic in real life, species have discrete breeding seasons which this model does not represent.<ul>
+<li><strong>Future population size(exp)</strong> - Nt =N0e^(rt)<ul>
+<li>Nt = future population size</li>
+<li>N0 = current population size</li>
+<li>r = intrinsic growth rate</li>
+<li>t = time</li>
+</ul>
+</li>
+<li><strong>Population growth Rate(exp)</strong> - dN/dt = rN<ul>
+<li>dN = Change in population</li>
+<li>dt = Change in time</li>
+<li>r = intrinsic growth rate</li>
+<li>N = Current population</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Geometric growth model</strong> - a model of population growth that compares population sizes at regular time intervals. When λ &gt; 1, population size has increased; when λ &lt; 1, population size has decreased; λ cannot be negative. (r ==~ λ except r used in exp growth). λ cannot be neg unlike r.<ul>
+<li><strong>Future population size(geom)</strong> - Nt =N0λ^t</li>
+<li><strong>Population growth rate(geom)</strong> - Delta N = N0(λ^t - 1)</li>
+</ul>
+</li>
+<li><strong>λ &lt; 1, r &lt; 0</strong> - declining growth graph, pop will decrease</li>
+<li><strong>λ = 1, r = 0</strong> - flat line, no growth</li>
+<li><strong>λ &gt; 1, r &gt; 0</strong> - inc growth graph, pop will inc</li>
+<li><strong>Density independent</strong> - factors that limit population size regardless of the population’s density. Common factors include climactic events (e.g., tornadoes, floods, extreme temperatures, and droughts).</li>
+<li><strong>Density dependent</strong> - factors that affect population size in relation to the population’s density.</li>
+<li><strong>Negative density dependence</strong> - when the rate of population growth decreases as population density increases.</li>
+<li><strong>Positive density dependence</strong>   - when the rate of population growth increases as population density increases (also known as Allee effect).</li>
+<li><strong>Allee effect</strong> -Populations of cowslip with fewer than 100 individuals produced fewer seeds per plant than larger populations. log growth (img)</li>
+<li><strong>Carrying capacity (K)</strong> - the maximum population size that can be supported by the environment. K/2 is when dN/dT is at its highest point, growth is fastest.</li>
+<li><strong>Logistic growth model</strong> - dN/dt = rN(1 - N/K) a growth model that describes slowing growth of populations at high densities. Uses carrying capacity unlike prev models S shaped curve with Inflection point<ul>
+<li><strong>S-shaped curve</strong> - the shape of the curve when a population is graphed over time using the logistic growth model.</li>
+<li><strong>Inflection point</strong> - the point on a sigmoidal growth curve at which the population has its highest growth rate.</li>
+</ul>
+</li>
+<li><strong>Age structure pyramids</strong> - Narrow bases means future reduced population, straight bases show stable.</li>
+<li><strong>Life tables</strong> - tables that contain class-specific survival and fecundity data.<ul>
+<li><strong>x</strong> - age class</li>
+<li><strong>nx</strong> - the number of individuals in each age class immediately after the population has produced offspring.</li>
+<li><strong>sx</strong> -the survival rate from one age class to the next age class</li>
+<li><strong>bx</strong> - the fecundity of each age class</li>
+<li><strong>Number surviving to next age class</strong> - (nx) x (sx)</li>
+<li><strong>Number of new offspring produced</strong> - (nx) x (sx) x (bx)</li>
+<li><strong>Stable age distribution</strong> - when the age structure of a population does not change over time</li>
+<li><strong>Survivorship</strong>- is the probability of surviving from birth to any later age class (lx). At least set to 1. l2 = l1*s1.</li>
+<li><strong>Net reproductive rate (R0)</strong> - the total number of female offspring that we expect an average female to produce over the course of her life R0 = sum(lx*bx)</li>
+<li><strong>Generation time (T)</strong> - the average time between the birth of an individual and the birth of its offspring.</li>
+<li><strong>Calculating lambda</strong> = R0 ^ (1/T). Populations grow when R0 &gt; 1, decline when &lt; 1
+<img src="/home/cfu288/Documents/Ecology/Images/lt.png" alt="Lifetable calculation"></li>
+</ul>
+</li>
+</ul>
+<h3 id="predation">Predation</h3>
+<ul>
+<li><strong>Introduced, exotic, or non-native species</strong> - are introduced to a region of the world where they have not historically existed.</li>
+<li><strong>Invasive species</strong> - are introduced species that spread rapidly and negatively affect other species.</li>
+<li><strong>Mesopredators</strong> - relatively small carnivores that consume herbivores<ul>
+<li>elimiating dingos, increased red fox population, which was worse. Red foxes were controlled by dingos</li>
+<li>Feral cats devastate biodiversity, kill birds and other native species, spread toxoplasmosis<ul>
+<li>,Educate, Trap-neuter-release, Euthanasia</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Top predators</strong> - predators that typically consume both herbivores and predators (e.g., mountain lions, wolves, sharks).</li>
+<li><strong>Herbivores</strong> - Herbivores can have substantial effects on the species they consume. Can fence off areas of plants to protect them</li>
+<li><strong>active hunting strategies</strong> - spend most of their time moving around looking for prey.</li>
+<li><strong>ambush (sit-and-wait) hunting strategies</strong>- lie in wait for a prey to pass by.</li>
+<li><strong>Crypsis</strong> - camouflage that either allows an individual to match its environment or breaks up the outline of an individual to blend in better with the background</li>
+<li><strong>Warning coloration (aposematism</strong>- a strategy where distastefulness evolves in association with very conspicuous colors and patterns.</li>
+<li><strong>Batesian mimicry</strong> - when palatable species evolve warning coloration that resembles  unpalatable species (e.g., hover flies and hornet clearwings resemble the common wasp).</li>
+<li><strong>Müllerian mimicry</strong> - when several unpalatable species evolve a similar pattern of warning coloration (e.g., several species of poison dart frogs have evolved similar warning coloration).</li>
+<li><strong>Defenses against herbivores</strong> - Some have phenotypically plastic defenses induced by attack, whereas others have fixed defenses.</li>
+<li><strong>Structural defenses against herbivores</strong> - Structural defenses (e.g., sharp spines, hair) deter herbivores from consuming leaves, stems, flowers, and fruits.</li>
+<li><strong>Defenses against herbivores</strong> - Chemical defenses include sticky resins and latex compounds that are hard to consume, and alkaloids that have a wide range of toxic effects.</li>
+<li><strong>Counter adaptation of herbivores</strong> - Many species of insects have evolved tolerance to chemical defenses. ex. Caterpillar behavioral choices can allow them to eat leaves how? - adaptation chews around the plant to remove toxins so it can eat the leaf underneath.</li>
+<li><strong>Lotka-Volterra model</strong> - a model of predator-prey interactions that incorporates oscillations in predator and prey populations and shows predator numbers lagging behind those of their prey. Does not incorporate realistic foraging behavior of most predators.</li>
+<li><strong>Functional response</strong> - the relationship between the density of prey and an individual predator’s rate of food consumption.<ul>
+<li><strong>Type I functional response</strong> - when a predator’s rate of prey consumption increases in a linear fashion with an increase in prey density until satiation occurs.</li>
+<li><strong>Type II functional response</strong> - when a predator’s rate of prey consumption begins to slow as prey density increases and then plateaus; often happens because predators must spend more time handling more prey.</li>
+<li><strong>Type III functional response</strong>- when a predator exhibits low, rapid, and slowing prey consumption under low, moderate, and high prey densities, respectively. Low consumption at low prey densities may occur because predators may have less practice at locating and catching prey but develop a search image at higher prey densities.<ul>
+<li><strong>Search image</strong> - a learned mental image that helps a predator locate and capture food.
+<img src="/home/cfu288/Documents/Ecology/Images/fr.jpg" alt="Functional Response"></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h3 id="modeling-pretador-prey-cycles">Modeling pretador-prey cycles</h3>
+<ul>
+<li><strong>PREY POPULATION GROWTH</strong> - Growth of prey populations depends on the growth rate of a prey population (rN) and the rate of individuals killed by predators (cNP): dN/dt = rN - cNP<ul>
+<li>N = number of prey</li>
+<li>P = number of predators</li>
+<li>c = probability of an encounter between a predator and prey leading to the prey’s capture</li>
+</ul>
+</li>
+<li><strong>PREDATOR POPULATION GROWTH</strong> - Similarly, growth of predator populations depends on growth rate of predator populations (acNP) minus the rate of predator death (mP): dP/dt = acNP - mP<ul>
+<li>a = the efficiency of a predator converting consumed prey into predator offspring</li>
+<li>m = per capita mortality rate of predators</li>
+<li>c = probability of an encounter between a predator and prey leading to the prey’s capture</li>
+</ul>
+</li>
+<li><strong>Equilibrium (zero growth) isocline</strong> - the population size of one species that causes the population of another species to be stable.<ul>
+<li>for <strong>prey equilibrium</strong> - happens when P = r/c, amount of prey needed to keep predators from growing. dP/dt = 0, horizontal line<ul>
+<li>r = growth rate</li>
+<li>C = capture rate</li>
+</ul>
+</li>
+<li>for <strong>predators equilibrium</strong> -  m/ac = N, predator population that keeps prey from growing. dN/dt = 0, vertical line.<ul>
+<li>left prey dec, right prey inc</li>
+<li>top pred inc, bottom pred dec</li>
+<li>bottom right, prey inc, pred inc</li>
+<li>top right, prey dec, pred inc</li>
+<li>top left, prey dec, pred dec</li>
+<li>bottom left, prey inc, pred dec
+<img src="/home/cfu288/Documents/Ecology/Images/p-p.jpg" alt=""></li>
+</ul>
+</li>
+<li><strong>Joint population trajectory</strong> - the simultaneous trajectory of predator and prey populations.</li>
+<li><strong>Joint equilibrium point</strong> - the point at which the equilibrium isoclines for predator and prey populations cross.
+<img src="/home/cfu288/Documents/Ecology/Images/4.jpg" alt="p-p cycle"></li>
+</ul>
+</li>
+<li><strong>WHAT IS THE NUMBER OF PREDATORS A POPULATION OF PREY CAN SUPPORT AND STILL BE STABLE?</strong> - when r=c, since P = r/c</li>
+<li><strong>WHAT IS THE NUMBER OF PREY REQUIRED TO SUSTAIN THE GROWTH OF PREDATORS?</strong> - when m=ac, since m/ac = N
+--- Review ---<ul>
+<li>Extra credit - fill out form and fill out survey before and after art show 11/8-11/10</li>
+<li>Exam 2 section, multiple choice(40 pts) and short answer.</li>
+<li>Dylan&#39;s talk</li>
+<li>Frog calls</li>
+<li>Life table - do practice question, one col at a time. Lx at 0 = 1. Lambda &gt; 1, growing, ow shrinking</li>
+<li>Caterpillar question - chemical defenses on plants
+*</li>
+<li>chapters 8-14, except for 13</li>
+<li>bring calculator</li>
+<li>red queen</li>
+<li>female choice</li>
+<li>relatedness between 2 daughters - have 2 sets of chromosomes</li>
+<li>relatedness of daughters to fathers and queen (50/50) and sons to fathers and queen(0/50)</li>
+</ul>
+</li>
+</ul></body>
+</html>
