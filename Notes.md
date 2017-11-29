@@ -78,11 +78,43 @@ Missed lecture
   * **Rank-abundance curves** - a curve that plots the relative abundance of each species in a community in rank order from the most abundant species to the least abundant species. To plot a rank-abundance curve, rank each species in terms of its abundance; the most abundant species receives a rank of 1, the next most abundant species receives a rank of 2, etc.
   * **Species evenness** - a comparison of the relative abundance of each species in a community. Flatter slope is more even.
   * **Added resources caused a** - decline in species richness of producers. For plant communities, increased fertility may cause dominant plants to cast more shade on competitively inferior plants.
-  * **Keystone species** - a species that substantially affects the structure of communities, although species might not be particularly numerous.Removal of a keystone species can cause a community to collapse.Ex -starfish eat muscles allowing new species to enter
+  * **Keystone species** - a species that substantially affects the structure of communities, although species might not be particularly numerous.Removal of a keystone species  can cause a community to collapse.Ex -starfish eat muscles allowing new species to enter
   * **Ecosystem engineers** - are keystones species that affect communities by influencing the structure of a habitat.
   * **Intermediate disturbance hypothesis** - the hypothesis that more species are present in a community that experiences occasional disturbances than in a community with either frequent or rare disturbances. Intermediate levels have highest amount of diversity. Forest fires are an example, occasional is good.
   ![](/Images/idh.jpg)
   * **Intermediate disturbance hypothesis** - the hypothesis that more species are present in a community that experiences occasional disturbances than in a community with either frequent or rare disturbances.
   * **Food Web** - complex and realistic representation of how species feed on each other in a community. Arrows in a food web indicate consumption and the movement of energy and nutrients.
   * **Direct effect** - an interaction between two species that does not involve other species. The direct effect of one species often sets off a chain of events that affect other species in the community.
-  * **Indirect effect** - an interaction between two species that involves one or more intermediate species.
+  * **Indirect effect** - an interaction between two species that involves one or more intermediate species. Botfly uses mosquito to interact with humans
+  * **Carbon cycle** - 6 parts: Photosynthesis(-), Respiration(+), Sedimentation(-), Exchange(+-), Extraction(+), Combustion(+).
+    * Photosynthesis - (- Carbon)
+    * Respiration - Animal Respiration, + carbon
+    * Sedimentation - (- carbon )
+    * Exchange - (+- carbon)
+    * Extraction - (+ carbon)
+    * Combustion - (+ carbon)
+  * **Nitrogen Cycle**
+  ![](/Images/nc.jpg)
+    * **Nitrogen fixation** - N2 gas to both ammonia or nitrate(NH3 or NO3-). Happens through lightning or plants.
+    * **Nitrification** - Ammonia is converted into nitrite then nitrate (NO2- then NO3-)
+    * **Assimilation** - Nitrogen (NH4+  or NO3- ) consumed
+    * **Mineralization** - Biological nitrogen is converted back to ammonia (NH4+ )
+    * **Denitrification** - Ammonia (NH4+ ) converted back to nitrogen gas (N2). Done by bacteria in anaerobic conditions
+
+### Conservation Debate
+  * **Soule** - Protecting the world as it is, inherent beauty in the absence of humans should be protected. No room for humans in conservation.
+    * Keep humans out
+    * Big areas of land to protect large predators
+    * New conservation is “wrongheaded, counterproductive, and ethically dubious.”
+    * Kareiva to a prostitute doing the bidding of industry.
+    * Top pretadors need large plots of land in order to support them - consume many resources
+    * "Ecologists like national parks because it’s the only place where large predators survive, and only where large predators survive is where biological diversity is rich"
+  * **Kareiva** - Humans are part of the environment. Work with companies with money.
+    * Nature more resilient than we think
+    * Balance the need of people and nature
+    * Who dictates which species to save??
+    * Anthropocene will lead to diversification.
+    * Conservationist need to work with industry
+    * "An article that confirms doom is never critiqued. Any article that reports things are not so bad gets hammered. It is very discouraging to me."
+    * Who are we to choose which species are important. City wildlife exists.
+    * Anthropocene = trigger for diversification
