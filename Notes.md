@@ -1,5 +1,13 @@
-Missed lecture
-
+### Competition
+* **Intraspecific competition** - competition among individuals of the same species.
+* **Interspecific competition** - competition among individuals of different species.
+* **Resource** - anything an organism consumes or uses that causes an increase in population growth rate when it becomes more available.
+* **Renewable resources** - resources that are constantly regenerated
+* **Nonrenewable resources** - resources that are not regenerated
+* **Leibig’s law of the minimum** - law stating  that a population increases until the supply of the most limiting resource prevents it
+from increasing further.
+* **Competitive exclusion principle** - two species cannot coexist indefinitely when they are both limited by the same resource.
+* **Competition coefficients** - variables that convert between the number of individuals of one species and the number of individuals of the other species.
 * **Zero population growth isocline**- population sizes at which a population experiences zero growth.
   * Species 1 will grow until K2 when alone.
   * otherwise, N1 = K2/b (carrying capacity divided by competition coefficent)
@@ -118,3 +126,4 @@ Missed lecture
     * "An article that confirms doom is never critiqued. Any article that reports things are not so bad gets hammered. It is very discouraging to me."
     * Who are we to choose which species are important. City wildlife exists.
     * Anthropocene = trigger for diversification
+  * Exam 3 - Mostly multiple choice - 23, 4 graph mp questions. 5 short answer
